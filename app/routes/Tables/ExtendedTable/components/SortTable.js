@@ -1,7 +1,7 @@
 import React from 'react';
 import _ from 'lodash';
 import BootstrapTable from 'react-bootstrap-table-next';
-const faker = require('@faker-js/faker/locale/en_US');
+import { faker } from "@faker-js/faker";
 
 const sortCaret = (order) => {
     if (!order)

@@ -4,7 +4,7 @@ import paginationFactory from 'react-bootstrap-table2-paginator';
 import filterFactory, { Comparator, dateFilter } from 'react-bootstrap-table2-filter'
 import ToolkitProvider from 'react-bootstrap-table2-toolkit';
 import _ from 'lodash';
-const faker = require('@faker-js/faker/locale/en_US');
+import { faker } from "@faker-js/faker";
 import moment from 'moment';
 
 import {

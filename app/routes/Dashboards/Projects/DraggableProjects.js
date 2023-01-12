@@ -1,6 +1,6 @@
 import React from 'react';
 import uid from 'uuid/v4';
-const faker = require('@faker-js/faker/locale/en_US');
+import { faker } from "@faker-js/faker";
 import { DragDropContext, Droppable, Draggable } from 'react-beautiful-dnd';
 import _ from 'lodash';
 

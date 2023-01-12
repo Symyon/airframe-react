@@ -2,7 +2,7 @@ import React from 'react';
 import _ from 'lodash';
 import BootstrapTable from 'react-bootstrap-table-next';
 import cellEditFactory, { Type } from 'react-bootstrap-table2-editor';
-const faker = require('@faker-js/faker/locale/en_US');
+import { faker } from "@faker-js/faker";
 
 import { randomArray } from './../../../../utilities';
 

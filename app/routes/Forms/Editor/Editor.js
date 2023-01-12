@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactQuill from 'react-quill';
-const faker = require('@faker-js/faker/locale/en_US');
+import { faker } from "@faker-js/faker";
 
 import {
     Container,

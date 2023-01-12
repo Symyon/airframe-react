@@ -1,6 +1,6 @@
 import React from 'react';
 import _ from 'lodash';
-const faker = require('@faker-js/faker/locale/en_US');
+import { faker } from "@faker-js/faker";
 import {  
     Media, 
     Avatar,

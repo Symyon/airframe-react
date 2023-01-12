@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const faker = require('@faker-js/faker/locale/en_US');
+import { faker } from "@faker-js/faker";
 
 import { 
     Card,
