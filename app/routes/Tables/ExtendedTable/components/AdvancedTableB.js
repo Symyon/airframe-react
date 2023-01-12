@@ -3,7 +3,7 @@ import BootstrapTable from 'react-bootstrap-table-next';
 import ToolkitProvider from 'react-bootstrap-table2-toolkit';
 import moment from 'moment';
 import _ from 'lodash';
-import faker from 'faker/locale/en_US';
+const faker = require('@faker-js/faker/locale/en_US');
 
 import {
     Avatar,

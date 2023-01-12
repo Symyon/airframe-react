@@ -1,5 +1,5 @@
 import React from 'react';
-import faker from 'faker/locale/en_US';
+const faker = require('@faker-js/faker/locale/en_US');
 
 import { 
     Avatar, 

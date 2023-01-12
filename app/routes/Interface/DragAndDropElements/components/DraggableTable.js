@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import uid from 'uuid/v4';
 import _ from 'lodash';
-import faker from 'faker/locale/en_US';
+const faker = require('@faker-js/faker/locale/en_US');
 import {
     DragDropContext,
     Droppable,
